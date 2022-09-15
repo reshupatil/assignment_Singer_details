@@ -1,0 +1,23 @@
+.table td{
+    border: 1px solid cadetblue;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.B{
+ font-weight: bold;
+ color: rgb(33, 44, 86);
+}
+
+h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  text-align: center;
+}

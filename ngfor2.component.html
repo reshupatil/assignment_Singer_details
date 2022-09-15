@@ -1,0 +1,34 @@
+
+    <h2>Singer Details</h2>
+    <div *ngFor="let Singer of singers">
+    <table class="table">
+
+        <tr>
+            <td class="B">Singer Name</td>
+            <td>{{Singer.name}}</td>
+            <td class="B">Total Songs</td>
+            <td>{{Singer.noOfsongs}}</td>
+            <td class="B">Hit Song</td>
+            <td>{{Singer.hitSong}}</td>
+            
+        </tr>
+        
+    </table>
+    </div>
+    
+    
+    <h2>Singer who has sang more than 50 songs</h2>
+    <div *ngFor="let Singer of singers" >
+    
+        <div *ngIf="Singer.noOfsongs > 50">
+            <table class="table">
+                <tr>
+                    <td class="B">Singer Name</td>
+                    <td>{{Singer.name}}</td>
+                    <td class="B">Total Songs</td>
+                    <td>{{Singer.noOfsongs}}</td>
+                    <td class="B"> Hit Song</td>
+                    <td>{{Singer.hitSong}}</td>
+                   
+                </tr>
+            </table>
